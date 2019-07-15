@@ -1,3 +1,5 @@
+%Paper: Noise Adaptive Smart Edge Preservation Filter: https://link.springer.com/chapter/10.1007/978-3-642-55038-6_110
+
 function output_image = NASEPF(input_image)
 [row, column] = size(input_image);
 output_image = zeros(row,column);
